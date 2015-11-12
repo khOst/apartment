@@ -1,0 +1,415 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px PFDinDisplayPro-Regular, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    min-width: 1024px;
+    /*overflow: hidden;*/
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #0f1f28;
+    border-bottom: 3px solid #d31f2a;
+    overflow: hidden;
+}
+
+nav .logo {
+    display: inline-block;
+    padding: 0 4%;
+    position: relative;
+    top: 15%;
+    cursor: pointer;
+}
+
+nav .logo:hover {
+    background: #0f1f28;
+}
+
+nav {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+}
+
+nav ul {
+    height: 100%;
+    position: relative;
+}
+
+nav li {
+    height: 100%;
+    padding: 20px 10px;
+    display: inline-block;
+    margin: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+
+nav li:hover {
+    background: #152e3b;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+nav a {
+    color: #f4d8ab; /* text color */
+    font-size: 16px;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Main
+-----------------------------------------------------------------------------*/
+.main {
+    position: relative;
+    background: url(img/bg.jpg);
+}
+
+.main:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.container {
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+.options {
+    cursor: pointer;
+    float: left;
+    text-transform: uppercase;
+    width: 113px;
+    height: 113px;
+    background-color: #d31f2a;
+    color: #f4d8ab;
+    font-size: 13px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.options:hover {
+    background-color: #0f1f28;
+    color: #f4d8ab;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.options img
+    /*.download img,*/
+    /*.proposal img */
+{
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.compas {
+    position: absolute;
+    top: 30px;
+    left: 140px;
+    cursor: pointer;
+}
+
+.part-a {
+    color: #0f1f28;
+    font-size: 50px;
+    /*font-weight: bold;*/
+    text-transform: uppercase;
+    position: absolute;
+    top: 280px;
+    left: 110px;
+}
+
+.floor {
+    padding-top: 40px;
+}
+
+.floor_inner {
+    display: block;
+    margin: 0 auto;
+    background: url(img/img_floor.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 405px;
+    height: 500px;
+}
+
+.icon {
+    width: 35px;
+    height: 38px;
+    position: relative;
+    left: 140px;
+    top: 100px;
+}
+
+
+.icon:hover {
+    color: #162328;
+}
+
+.icon-1 {
+    left: 140px;
+    top: 100px;
+}
+
+.icon-2 {
+    left: 220px;
+    top: 70px;
+}
+
+.icon-3 {
+    left: 90px;
+    top: 140px;
+}
+
+.icon-4 {
+    left: 240px;
+    top: 100px;
+}
+
+.icon-5 {
+    left: 340px;
+    top: 20px;
+}
+
+.icon-6 {
+    left: 340px;
+    top: 60px;
+}
+
+.icon-7 {
+    left: 340px;
+    top: 140px;
+}
+
+.icon-8 {
+    left: 200px;
+    top: 120px;
+}
+
+.icon-9 {
+    left: 120px;
+    top: 40px;
+}
+
+.data {
+    margin-right: 20px;
+    margin-left: -100px;
+    float: right;
+    color: #0f1f28;
+    width: 250px;
+    /*margin-right: 20px;*/
+    height: 400px;
+    /*overflow: auto;*/
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.data-2 table,
+.data-3 table {
+    margin: 5px 0;
+}
+
+.data-2 {
+    font-size: 14px;
+    border-top: 5px solid #d3222c;
+    text-transform: uppercase;
+}
+
+.data-3 {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    font-size: 12px;
+}
+
+.data-2 td,
+.data-3 td {
+    padding: 4px 10px 4px 0;
+}
+
+.data-3 td:nth-child(2) {
+    padding-right: 45px;
+}
+
+.back,
+.buttons-right {
+    margin-top: -125px;
+}
+
+.buttons-right {
+    float: right;
+    margin-right: 50px;
+    /*margin-bottom: -200px;*/
+}
+
+.download,
+.proposal,
+.back {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    width: 115px;
+    height: 115px;
+    border: 3px solid #0f1f28;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.download:hover,
+.proposal:hover,
+.back:hover {
+    background-color: #0f1f28;
+    color: #f4d8ab;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.download p,
+.proposal p,
+.back p {
+    padding-top: 50px;
+    line-height: 1.2;
+}
+
+.back {
+    float: left;
+    margin-left: 50px;
+    padding-left: 22px;
+    padding-top: 15px;
+    text-align: left;
+    background: url(img/left_arrow.png) no-repeat 25px 20px;
+}
+
+.back:hover {
+    background: #0f1f28 url(img/left-arrow-hover.png) no-repeat 25px 20px;
+}
+
+.back img {
+    padding-bottom: 15px;
+}
+
+.download {
+    margin-right: 20px;
+    background: url(img/download_arrow.png) no-repeat center 20px;
+}
+
+.download:hover {
+    background: #0f1f28 url(img/download_arrow_hover.png) no-repeat center 20px;
+}
+
+.proposal {
+    background: url(img/forma-1.png) no-repeat center 20px;
+}
+
+.proposal:hover {
+    background: #0f1f28 url(img/Forma-1-hover.png) no-repeat center 20px;
+}
+
+.logo-realist {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+
+/*!**!*/
+/*1 - HTML5, CSS3, подключение нестандартного шрифта.*/
+/*2 - Минимальная ширина 1024px (для десктопов)*/
+/*3 - Маркеры на комнатах (черные с цифрами) отдельно отпозиционировать.*/
+/*4 - Верстка под мобильную версию будет плюсом. (Прокручиваться должна только в мобильной версии)*/
+/*5 - Кроссбраузерность (IE9+ - под очень старые не верстаем).*/
+/*6 - Моусоверы - есть в слоях дизайна. Если нет - на свое усмотрение.*/
+/*7 - Желательно CSS и JavaScript не обфусцировать.*/
+/*8 - При выполнении этого задания писать код и верстку не используя фреймворки.*/
+/*!**!*/

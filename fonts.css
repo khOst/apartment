@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'PFDinDisplayPro-Med';
+    src: url('fonts/PFDinDisplayPro-Med/pfdindisplaypro-med.eot');
+    src: url('fonts/PFDinDisplayPro-Med/pfdindisplaypro-med.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PFDinDisplayPro-Med/pfdindisplaypro-med.woff') format('woff'),
+    url('fonts/PFDinDisplayPro-Med/PFDinDisplayPro-Med.ttf') format('truetype'),
+    url('fonts/PFDinDisplayPro-Med/pfdindisplaypro-med.svg#PFDinDisplayPro') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PFDinDisplayPro-Reg';
+    src: url('fonts/PFDinDisplayPro-Reg/PFDinDisplayPro-Reg.eot');
+    src: url('fonts/PFDinDisplayPro-Reg/PFDinDisplayPro-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PFDinDisplayPro-Reg/PFDinDisplayPro-Reg.woff') format('woff'),
+    url('fonts/PFDinDisplayPro-Reg/PFDinDisplayPro-Reg.ttf') format('truetype'),
+    url('fonts/PFDinDisplayPro-Reg/PFDinDisplayPro-Reg.svg#PFDinDisplayPro') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PFDinDisplayPro-Regular';
+    src: url('fonts/PTSans-Web-Regular/ptsans-web-regular.eot');
+    src: url('fonts/PTSans-Web-Regular/ptsans-web-regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PTSans-Web-Regular/ptsans-web-regular.woff') format('woff'),
+    url('fonts/PTSans-Web-Regular/PTSans-Web-Regular.ttf') format('truetype'),
+    url('fonts/PTSans-Web-Regular/ptsans-web-regular.svg#PFDinDisplayPro') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
